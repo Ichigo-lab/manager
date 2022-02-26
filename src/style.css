@@ -1,0 +1,57 @@
+@font-face {
+	font-family: 'Industry';
+	src: url('./IndustryBook.woff');
+}
+* {
+	font-family: Industry;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #111827;
+	color: #f3f4f6;
+	padding-top: 20px;
+}
+
+.panel {
+	background-color: #1f2937;
+}
+
+.form-check-input {
+	cursor: pointer;
+	width: 50px !important;
+	height: 24px !important;
+	transition: 0.3s !important;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.accordion {
+	background-color: transparent;
+}
+
+.form-select {
+	width: 80px !important;
+	color: white !important;
+	background-color: #111827 !important;
+	background-position: right 5px center;
+}
+
+.px-4_5 {
+	padding-left: 1.7rem;
+	padding-right: 1.7rem;
+}
+
+.v-none{
+	visibility: hidden;
+}
+
+h5{
+	margin-bottom: 0 !important;
+}
